@@ -10,8 +10,8 @@ public class TestBanque {
 		System.out.println(compte);
 	
 		// on doit lire les valeurs passées en attributs
-		System.out.println(compte.numeroCompte);
-		System.out.println(compte.soldeCompte);
+//		System.out.println(compte.numeroCompte);
+//		System.out.println(compte.soldeCompte);
 	}
 
 }
