@@ -14,4 +14,35 @@ public class Personne {
 		this.address = address;
 	}
 	
+	public Personne(String lastname, String firstname){
+		this.lastname = lastname;
+		this.firstname = firstname;
+	}
+	
+	
+	public String getLastname() {
+		return this.lastname;
+	}
+	
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	
+	public String getFirstname() {
+		return this.firstname;
+	}
+	
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+	
+	public AdressePostale getAddress() {
+		return this.address;
+	}
+	
+	public void setAddress(AdressePostale address) {
+		this.address = address;
+	}
+	
+	
 }
