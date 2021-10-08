@@ -11,6 +11,6 @@ public class CompteTaux extends Compte{
 	
 	@Override
 	public String toString() {
-		return "numéro compte : " + numeroCompte + ", solde compte : " + soldeCompte + ", taux de rémunération : " + tauxRemuneration;
+		return "numéro compte : " + getNumeroCompte() + ", solde compte : " + getSoldeCompte() + ", taux de rémunération : " + tauxRemuneration;
 	}
 }

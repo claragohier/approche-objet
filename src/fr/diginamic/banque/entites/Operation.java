@@ -2,8 +2,8 @@ package fr.diginamic.banque.entites;
 
 public abstract class Operation {
 
-	String dateOp;
-	int montantOp;
+	private String dateOp;
+	private int montantOp;
 
 	Operation(String dateOp, int montantOp){
 		this.dateOp = dateOp;
@@ -11,4 +11,21 @@ public abstract class Operation {
 	}
 	
 	public abstract String getType();
+
+	public String getDateOp() {
+		return dateOp;
+	}
+
+	public void setDateOp(String dateOp) {
+		this.dateOp = dateOp;
+	}
+
+	public int getMontantOp() {
+		return montantOp;
+	}
+
+	public void setMontantOp(int montantOp) {
+		this.montantOp = montantOp;
+	}
+	
 }

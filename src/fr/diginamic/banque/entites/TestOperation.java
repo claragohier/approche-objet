@@ -16,13 +16,13 @@ public class TestOperation {
 
 		for(int i=0; i < operations.length; i++) {
 			System.out.println(operations[i].getType());
-			System.out.println("date : " + operations[i].dateOp);
-			System.out.println("montant : " + operations[i].montantOp);
+			System.out.println("date : " + operations[i].getDateOp());
+			System.out.println("montant : " + operations[i].getMontantOp());
 			
 			if(operations[i].getType() == "Crédit") {
-				sum += operations[i].montantOp;
+				sum += operations[i].getMontantOp();
 			} else {
-				sum -= operations[i].montantOp;
+				sum -= operations[i].getMontantOp();
 			}
 			
 		}

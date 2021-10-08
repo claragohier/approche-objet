@@ -17,4 +17,13 @@ public class Cercle implements ObjetGeometrique{
 	public double surface() {
 		return Math.PI * Math.pow(this.rayon, 2);
 	}
+
+	public double getRayon() {
+		return rayon;
+	}
+
+	public void setRayon(double rayon) {
+		this.rayon = rayon;
+	}
+	
 }
