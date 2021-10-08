@@ -1,11 +1,11 @@
 package fr.diginamic.banque.entites;
 
-public class Comptes {
+public class Compte {
 
 	int numeroCompte;
 	int soldeCompte;
 	
-	Comptes(int numeroCompte, int soldeCompte){
+	Compte(int numeroCompte, int soldeCompte){
 		this.numeroCompte = numeroCompte;
 		this.soldeCompte = soldeCompte;
 	}

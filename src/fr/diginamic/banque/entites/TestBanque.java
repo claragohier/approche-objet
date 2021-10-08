@@ -4,14 +4,15 @@ public class TestBanque {
 
 	public static void main(String[] args) {
 
-		Comptes compte = new Comptes(1, 500);
+		Compte compte = new Compte(1, 500);		
+		CompteTaux compteT = new CompteTaux(1, 200, 100);
 		
-		// on ne peut pas lire l'objet
-		System.out.println(compte);
+		Compte[] array = {compte, compteT};
+		
+		for(int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
 	
-		// on doit lire les valeurs passées en attributs
-//		System.out.println(compte.numeroCompte);
-//		System.out.println(compte.soldeCompte);
 	}
 
 }
